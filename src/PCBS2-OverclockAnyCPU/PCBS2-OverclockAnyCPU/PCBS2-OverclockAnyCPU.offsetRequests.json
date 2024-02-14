@@ -1,0 +1,1 @@
+{"caller":"PCBS2-OverclockAnyCPU","offsetRequests":[{"searchName":"BiosConfig_AllowOverclock","value":"0x9D1AD0","signature":"bool BiosConfig__AllowOverclock (BiosConfig_o* __this, const MethodInfo* method);"}]}
