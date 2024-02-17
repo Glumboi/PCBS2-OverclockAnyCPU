@@ -1,1 +1,20 @@
-{"caller":"PCBS2-OverclockAnyCPU","offsetRequests":[{"searchName":"BiosConfig_AllowOverclock","value":"0x9D1AD0","signature":"bool BiosConfig__AllowOverclock (BiosConfig_o* __this, const MethodInfo* method);"}]}
+{
+  "caller": "PCBS2-OverclockAnyCPU",
+  "offsetRequests": [
+    {
+      "searchName": "PartDescCPU_GetHWInfoProps",
+      "value": "0x99E5F0",
+      "signature": "void PartDescCPU__GetHWInfoProps (PartDescCPU_o* __this, System_Collections_Generic_List_string__o* props, const MethodInfo* method);"
+    },
+    {
+      "searchName": "BiosConfig_AllowOverclock",
+      "value": "0x9D1AD0",
+      "signature": "bool BiosConfig__AllowOverclock (BiosConfig_o* __this, const MethodInfo* method);"
+    },
+    {
+      "searchName": "BiosConfig_ChangeCPUMultiplier",
+      "value": "0x9D1AD0",
+      "signature": "bool BiosConfig__ChangeCPUMultiplier (BiosConfig_o* __this, int32_t dir, const MethodInfo* method);"
+    }
+  ]
+}
